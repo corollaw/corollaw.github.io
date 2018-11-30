@@ -397,17 +397,17 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+          Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in 
+          ...
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2018/11/30/hello-world/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -524,7 +524,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Updated at: 2018-11-30 10:48:47" itemprop="dateModified" datetime="2018-11-30T10:48:47+08:00">2018-11-30</time>
+                <time title="Updated at: 2018-11-30 10:58:26" itemprop="dateModified" datetime="2018-11-30T10:58:26+08:00">2018-11-30</time>
               
             
           </span>
@@ -559,193 +559,17 @@
       
         
           
-            <p><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo</a> 是高效的静态站点生成框架，她基于 <a href="https://nodejs.org/" target="_blank" rel="noopener">Node.js</a>。 通过 Hexo 你可以轻松地使用 Markdown 编写文章，除了 Markdown 本身的语法之外，还可以使用 Hexo 提供的 <a href="https://hexo.io/zh-cn/docs/tag-plugins.html" target="_blank" rel="noopener">标签插件</a> 来快速的插入特定形式的内容。在这篇文章中，假定你已经成功安装了 Hexo，并使用 Hexo 提供的命令创建了一个站点。</p>
-<p>你可以访问 <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">Hexo 的文档</a> 了解如何安装 Hexo</p>
-<p>在 Hexo 中有两份主要的配置文件，其名称都是 <code>_config.yml</code>。 其中，一份位于站点根目录下，主要包含 Hexo 本身的配置；另一份位于主题目录下，这份配置由主题作者提供，主要用于配置主题相关的选项。</p>
-<p>为了描述方便，在以下说明中，将前者称为 站点配置文件， 后者称为 主题配置文件。</p>
-<h2 id="安装-NexT"><a href="#安装-NexT" class="headerlink" title="安装 NexT"></a>安装 NexT</h2><p>Hexo 安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的 <code>themes</code> 目录下， 然后修改下配置文件即可。具体到 NexT 来说，安装步骤如下。</p>
-<h3 id="下载主题"><a href="#下载主题" class="headerlink" title="下载主题"></a>下载主题</h3><p>如果你熟悉 <a href="http://git-scm.com/" target="_blank" rel="noopener">Git</a>， 建议你使用 克隆最新版本 的方式，之后的更新可以通过 <code>git pull</code> 来快速更新， 而不用再次下载压缩包替换。</p>
-<ul>
-<li><a href="http://theme-next.iissnan.com/getting-started.html#clone" target="_blank" rel="noopener">克隆最新版本</a></li>
-<li><a href="http://theme-next.iissnan.com/getting-started.html#stable" target="_blank" rel="noopener">下载稳定版本</a></li>
-</ul>
-<p>在终端窗口下，定位到 Hexo 站点目录下。使用 <code>Git</code> checkout 代码：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd your-hexo-site</span><br><span class="line">$ git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
-<p>如果你对 Git 感兴趣，可以通过《Pro Git》这本书来学习。你可以访问我制作的一个 <a href="http://iissnan.com/progit" target="_blank" rel="noopener">在线版本（第一版）</a>。</p>
-<h3 id="启用主题"><a href="#启用主题" class="headerlink" title="启用主题"></a>启用主题</h3><p>与所有 Hexo 主题启用的模式一样。 当 克隆/下载 完成后，打开 站点配置文件， 找到 <code>theme</code> 字段，并将其值更改为 <code>next</code>。</p>
-<p>启用 NexT 主题</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure>
-<p>到此，NexT 主题安装完成。下一步我们将验证主题是否正确启用。在切换主题之后、验证之前， 我们最好使用 <code>hexo clean</code> 来清除 Hexo 的缓存。</p>
-<h3 id="验证主题"><a href="#验证主题" class="headerlink" title="验证主题"></a>验证主题</h3><p>首先启动 Hexo 本地站点，并开启调试模式（即加上 <code>--debug</code>），整个命令是 <code>hexo s --debug</code>。 在服务启动的过程，注意观察命令行输出是否有任何异常信息，如果你碰到问题，这些信息将帮助他人更好的定位错误。 当命令行输出中提示出：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
-<p>此时即可使用浏览器访问 <code>http://localhost:4000</code>，检查站点是否正确运行。</p>
-<p>当你看到站点的外观与下图所示类似时即说明你已成功安装 NexT 主题。这是 NexT 默认的 Scheme —— Muse</p>
-<p><img src="http://theme-next.iissnan.com/uploads/five-minutes-setup/validation-default-scheme-mac.png" alt="img"></p>
-<p>现在，你已经成功安装并启用了 NexT 主题。下一步我们将要更改一些主题的设定，包括个性化以及集成第三方服务。</p>
-<h2 id="主题设定"><a href="#主题设定" class="headerlink" title="主题设定"></a>主题设定</h2><h3 id="选择-Scheme"><a href="#选择-Scheme" class="headerlink" title="选择 Scheme"></a>选择 Scheme</h3><p>Scheme 是 NexT 提供的一种特性，借助于 Scheme，NexT 为你提供多种不同的外观。同时，几乎所有的配置都可以 在 Scheme 之间共用。目前 NexT 支持三种 Scheme，他们是：</p>
-<ul>
-<li>Muse - 默认 Scheme，这是 NexT 最初的版本，黑白主调，大量留白</li>
-<li>Mist - Muse 的紧凑版本，整洁有序的单栏外观</li>
-<li>Pisces - 双栏 Scheme，小家碧玉似的清新</li>
-</ul>
-<p>Scheme 的切换通过更改 主题配置文件，搜索 scheme 关键字。 你会看到有三行 scheme 的配置，将你需用启用的 scheme 前面注释 <code>#</code> 去除即可。</p>
-<p>选择 Pisces Scheme</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">scheme: Pisces</span><br></pre></td></tr></table></figure>
-<h3 id="设置-语言"><a href="#设置-语言" class="headerlink" title="设置 语言"></a>设置 语言</h3><p>编辑 站点配置文件， 将 <code>language</code> 设置成你所需要的语言。建议明确设置你所需要的语言，例如选用简体中文，配置如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">language: zh-Hans</span><br></pre></td></tr></table></figure>
-<p>目前 NexT 支持的语言如以下表格所示：</p>
-<table>
-<thead>
-<tr>
-<th>语言</th>
-<th>代码</th>
-<th>设定示例</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>English</td>
-<td><code>en</code></td>
-<td><code>language: en</code></td>
-</tr>
-<tr>
-<td>简体中文</td>
-<td><code>zh-Hans</code></td>
-<td><code>language: zh-Hans</code></td>
-</tr>
-<tr>
-<td>Français</td>
-<td><code>fr-FR</code></td>
-<td><code>language: fr-FR</code></td>
-</tr>
-<tr>
-<td>Português</td>
-<td><code>pt</code></td>
-<td><code>language: pt</code> or <code>language: pt-BR</code></td>
-</tr>
-<tr>
-<td>繁體中文</td>
-<td><code>zh-hk</code> 或者 <code>zh-tw</code></td>
-<td><code>language: zh-hk</code></td>
-</tr>
-<tr>
-<td>Русский язык</td>
-<td><code>ru</code></td>
-<td><code>language: ru</code></td>
-</tr>
-<tr>
-<td>Deutsch</td>
-<td><code>de</code></td>
-<td><code>language: de</code></td>
-</tr>
-<tr>
-<td>日本語</td>
-<td><code>ja</code></td>
-<td><code>language: ja</code></td>
-</tr>
-<tr>
-<td>Indonesian</td>
-<td><code>id</code></td>
-<td><code>language: id</code></td>
-</tr>
-<tr>
-<td>Korean</td>
-<td><code>ko</code></td>
-<td><code>language: ko</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="设置-菜单"><a href="#设置-菜单" class="headerlink" title="设置 菜单"></a>设置 菜单</h3><p>菜单配置包括三个部分，第一是菜单项（名称和链接），第二是菜单项的显示文本，第三是菜单项对应的图标。 NexT 使用的是 <a href="http://fontawesome.io/" target="_blank" rel="noopener">Font Awesome</a> 提供的图标， Font Awesome 提供了 600+ 的图标，可以满足绝大的多数的场景，同时无须担心在 Retina 屏幕下 图标模糊的问题。</p>
-<p>编辑 主题配置文件，修改以下内容：</p>
-<ol>
-<li><p>设定菜单内容，对应的字段是 <code>menu</code>。 菜单内容的设置格式是：<code>item name: link</code>。其中 <code>item name</code>是一个名称，这个名称并不直接显示在页面上，她将用于匹配图标以及翻译。</p>
-<p>菜单示例配置</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: /</span><br><span class="line">  archives: /archives</span><br><span class="line">  #about: /about</span><br><span class="line">  #categories: /categories</span><br><span class="line">  tags: /tags</span><br><span class="line">  #commonweal: /404.html</span><br></pre></td></tr></table></figure>
-<p>若你的站点运行在子目录中，请将链接前缀的 <code>/</code> 去掉</p>
-<p>NexT 默认的菜单项有（标注  的项表示需要手动创建这个页面）：</p>
-<p>| 键值       | 设定值                    | 显示文本（简体中文） |<br>| ———- | ————————- | ——————– |<br>| home       | <code>home: /</code>                 | 主页                 |<br>| archives   | <code>archives: /archives</code>     | 归档页               |<br>| categories | <code>categories: /categories</code> | 分类页               |<br>| tags       | <code>tags: /tags</code>             | 标签页               |<br>| about      | <code>about: /about</code>           | 关于页面             |<br>| commonweal | <code>commonweal: /404.html</code>   | 公益 404             |</p>
-</li>
-<li><p>设置菜单项的显示文本。在第一步中设置的菜单的名称并不直接用于界面上的展示。Hexo 在生成的时候将使用 这个名称查找对应的语言翻译，并提取显示文本。这些翻译文本放置在 NexT 主题目录下的 <code>languages/{language}.yml</code>（<code>{language}</code> 为你所使用的语言）。</p>
-<p>以简体中文为例，若你需要添加一个菜单项，比如 <code>something</code>。那么就需要修改简体中文对应的翻译文件<code>languages/zh-Hans.yml</code>，在 <code>menu</code> 字段下添加一项：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: 首页</span><br><span class="line">  archives: 归档</span><br><span class="line">  categories: 分类</span><br><span class="line">  tags: 标签</span><br><span class="line">  about: 关于</span><br><span class="line">  search: 搜索</span><br><span class="line">  commonweal: 公益404</span><br><span class="line">  something: 有料</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>设定菜单项的图标，对应的字段是 <code>menu_icons</code>。 此设定格式是 <code>item name: icon name</code>，其中 <code>item name</code> 与上一步所配置的菜单名字对应，<code>icon name</code> 是 Font Awesome 图标的 名字。而 <code>enable</code> 可用于控制是否显示图标，你可以设置成 <code>false</code> 来去掉图标。</p>
-<p>菜单图标配置示例</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">menu_icons:</span><br><span class="line">  enable: true</span><br><span class="line">  # Icon Mapping.</span><br><span class="line">  home: home</span><br><span class="line">  about: user</span><br><span class="line">  categories: th</span><br><span class="line">  tags: tags</span><br><span class="line">  archives: archive</span><br><span class="line">  commonweal: heartbeat</span><br></pre></td></tr></table></figure>
-<p>在菜单图标开启的情况下，如果菜单项与菜单未匹配（没有设置或者无效的 Font Awesome 图标名字） 的情况下，NexT 将会使用  作为图标。</p>
-<p>请注意键值（如 <code>home</code>）的大小写要严格匹配</p>
-</li>
-</ol>
-<h3 id="设置-侧栏"><a href="#设置-侧栏" class="headerlink" title="设置 侧栏"></a>设置 侧栏</h3><p>默认情况下，侧栏仅在文章页面（拥有目录列表）时才显示，并放置于右侧位置。 可以通过修改 主题配置文件 中的 <code>sidebar</code> 字段来控制侧栏的行为。侧栏的设置包括两个部分，其一是侧栏的位置， 其二是侧栏显示的时机。</p>
-<ol>
-<li><p>设置侧栏的位置，修改 <code>sidebar.position</code> 的值，支持的选项有：</p>
-<ul>
-<li>left - 靠左放置</li>
-<li>right - 靠右放置</li>
-</ul>
-<p>目前仅 Pisces Scheme 支持 <code>position</code> 配置。影响版本5.0.0及更低版本。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sidebar:</span><br><span class="line">  position: left</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>设置侧栏显示的时机，修改 <code>sidebar.display</code> 的值，支持的选项有：</p>
-<ul>
-<li><code>post</code> - 默认行为，在文章页面（拥有目录列表）时显示</li>
-<li><code>always</code> - 在所有页面中都显示</li>
-<li><code>hide</code> - 在所有页面中都隐藏（可以手动展开）</li>
-<li><code>remove</code> - 完全移除</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sidebar:</span><br><span class="line">  display: post</span><br></pre></td></tr></table></figure>
-<p>已知侧栏在 <code>use motion: false</code> 的情况下不会展示。 影响版本5.0.0及更低版本。</p>
-</li>
-</ol>
-<h3 id="设置-头像"><a href="#设置-头像" class="headerlink" title="设置 头像"></a>设置 头像</h3><p>编辑 主题配置文件， 修改字段 <code>avatar</code>， 值设置成头像的链接地址。其中，头像的链接地址可以是：</p>
-<table>
-<thead>
-<tr>
-<th>地址</th>
-<th>值</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>完整的互联网 URI</td>
-<td><code>http://example.com/avatar.png</code></td>
-</tr>
-<tr>
-<td>站点内的地址</td>
-<td>将头像放置主题目录下的 <code>source/uploads/</code> （新建 uploads 目录若不存在）  配置为：<code>avatar: /uploads/avatar.png</code>或者 放置在 <code>source/images/</code> 目录下  配置为：<code>avatar: /images/avatar.png</code></td>
-</tr>
-</tbody>
-</table>
-<p>头像设置示例</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">avatar: http://example.com/avatar.png</span><br></pre></td></tr></table></figure>
-<h3 id="设置-作者昵称"><a href="#设置-作者昵称" class="headerlink" title="设置 作者昵称"></a>设置 作者昵称</h3><p>编辑 站点配置文件， 设置 <code>author</code> 为你的昵称。</p>
-<h3 id="站点描述"><a href="#站点描述" class="headerlink" title="站点描述"></a>站点描述</h3><p>编辑 站点配置文件， 设置 <code>description</code> 字段为你的站点描述。站点描述可以是你喜欢的一句签名:)</p>
-<h2 id="集成常用的第三方服务"><a href="#集成常用的第三方服务" class="headerlink" title="集成常用的第三方服务"></a>集成常用的第三方服务</h2><h3 id="百度统计"><a href="#百度统计" class="headerlink" title="百度统计"></a>百度统计</h3><p>注意： baidu_analytics 不是你的百度 id 或者 百度统计 id</p>
-<ol>
-<li>登录 <a href="http://tongji.baidu.com/" target="_blank" rel="noopener">百度统计</a>， 定位到站点的代码获取页面</li>
-<li>复制 <code>hm.js?</code> 后面那串统计脚本 id，如：<img src="http://theme-next.iissnan.com/uploads/five-minutes-setup/analytics-baidu-id.png" alt="img"></li>
-<li>编辑 主题配置文件， 修改字段 <code>baidu_analytics</code> 字段，值设置成你的百度统计脚本 id。</li>
-</ol>
-<h3 id="阅读次数统计（LeanCloud）-由-Doublemine-贡献"><a href="#阅读次数统计（LeanCloud）-由-Doublemine-贡献" class="headerlink" title="阅读次数统计（LeanCloud） 由 Doublemine 贡献"></a>阅读次数统计（LeanCloud） 由 <a href="https://github.com/iissnan/hexo-theme-next/pull/439" target="_blank" rel="noopener">Doublemine</a> 贡献</h3><p>请查看 <a href="https://notes.wanghao.work/2015-10-21-%E4%B8%BANexT%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E6%96%87%E7%AB%A0%E9%98%85%E8%AF%BB%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD.html#%E9%85%8D%E7%BD%AELeanCloud" target="_blank" rel="noopener">为NexT主题添加文章阅读量统计功能</a></p>
-<h3 id="Algolia-搜索"><a href="#Algolia-搜索" class="headerlink" title="Algolia 搜索"></a>Algolia 搜索</h3><p>详细的配置请参考： <a href="http://theme-next.iissnan.com/third-party-services.html#algolia-search" target="_blank" rel="noopener">第三方服务 - Algolia</a></p>
-<h1 id="next首页不显示全文-只显示预览"><a href="#next首页不显示全文-只显示预览" class="headerlink" title="next首页不显示全文(只显示预览)"></a>next首页不显示全文(只显示预览)</h1><h6 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h6><ul>
-<li>next是Hexo的一个博客主题，这个主题 ，首页显示的文章列表，每一遍都是全文，不方便概览。</li>
-</ul>
-<h6 id="希望达到的效果"><a href="#希望达到的效果" class="headerlink" title="希望达到的效果"></a>希望达到的效果</h6><ul>
-<li>首页显示文章列表，列表里的每一篇文章只显示预览，不显示全文。</li>
-</ul>
-<h6 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h6><p>百度了好久，折腾了半天，改了各种参数，算是撞破了头，最后试出来了。<br> 哎，搞移动端的，不太懂网页的这些东西，不说废话了，直接上解决方法：</p>
-<ul>
-<li>进入hexo博客项目的themes/next目录</li>
-<li>用文本编辑器打开_config.yml文件</li>
-<li>搜索”auto_excerpt”,找到如下部分：</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># Automatically Excerpt. Not recommand.</span><br><span class="line"># Please use &lt;!-- more --&gt; in the post to control excerpt accurately.</span><br><span class="line">auto_excerpt:</span><br><span class="line">  enable: false</span><br><span class="line">  length: 150</span><br></pre></td></tr></table></figure>
-<ul>
-<li>把enable改为对应的false改为true，然后<code>hexo d -g</code>，再进主页，问题就解决了！</li>
-</ul>
-
+          Hexo 是高效的静态站点生成框架，她基于 Node.js。 通过 Hexo 你可以轻松地使用 Markdown 编写文章，除了 Markdown 本身的语法之外，还可以使用 Hexo 提供的 标签插件 来快速的插入特定形式的内容。在这篇文章中，假定你已经成功安装了 Hexo，并使用 Hexo 提供
+          ...
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2018/11/29/Hexo安装NexT主题/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -897,79 +721,18 @@
       
         
           
-            <p>去年9月的时候开始搭建了第一个自己的独立博客，到现在也稍微像模像样了。很多小伙伴应该也想过搭建一个自己的博客，网上也有一堆详细教程。我在此稍稍总结一下具体的搭建步骤，另外网上很少有修改博客源码的个性化教程，我就稍稍分享一下我的一些修改经验，更多的个性化操作需要你自己以后去摸索。</p>
-<p>具体效果可以参观我的博客：<a href="http://link.zhihu.com/?target=http%3A//godweiyang.com/" target="_blank" rel="noopener">godweiyang.com</a>，欢迎大家支持。</p>
-<p>我不是一个前端程序员，有些东西不是很了解，说的不好大家见谅。</p>
-<p>首先要了解一下我们搭建博客要用到的框架。Hexo是高效的静态站点生成框架，它基于Node.js。通过Hexo，你可以直接使用Markdown语法来撰写博客。相信很多小伙伴写工程都写过README.md文件吧，对，就是这个格式的！写完后只需两三条命令即可将生成的网页上传到你的github上，然后别人就可以看到你的网页啦。是不是很简单？你无需关心网页源代码的具体细节，你只需要用心写好你的博客内容就行。</p>
-<h2 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h2><p>首先下载最新版<a href="http://link.zhihu.com/?target=https%3A//nodejs.org/dist/v9.11.1/node-v9.11.1-x64.msi" target="_blank" rel="noopener">Node.js</a>，我这里给的是64位的。</p>
-<p>安装选项全部默认，一路点击<code>Next</code>。</p>
-<p>最后安装好之后，按<code>Win+R</code>打开命令提示符，输入<code>node -v</code>和<code>npm -v</code>，如果出现版本号，那么就安装成功了。</p>
-<h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p>为了把本地的网页文件上传到github上面去，我们需要用到分布式版本控制工具————Git<a href="http://link.zhihu.com/?target=https%3A//git-scm.com/download/win" target="_blank" rel="noopener">[下载地址]</a>。</p>
-<p>安装选项还是全部默认，只不过最后一步添加路径时选择<code>Use Git from the Windows Command Prompt</code>，这样我们就可以直接在命令提示符里打开git了。</p>
-<p>安装完成后在命令提示符中输入<code>git --version</code>验证是否安装成功。</p>
-<h2 id="注册Github账号"><a href="#注册Github账号" class="headerlink" title="注册Github账号"></a>注册Github账号</h2><p>接下来就去注册一个github账号，用来存放我们的网站。大多数小伙伴应该都有了吧，作为一个合格的程序猿（媛）还是要有一个的。</p>
-<p>打开<a href="http://link.zhihu.com/?target=https%3A//github.com/" target="_blank" rel="noopener">https://github.com/</a>，新建一个项目，如下所示：</p>
-<p><img src="https://pic4.zhimg.com/80/v2-17a748e7d4ba7e0703f04a2fee18373b_hd.jpg" alt="img"></p>
-<p>然后如下图所示，输入自己的项目名字，后面一定要加<code>.github.io</code>后缀，README初始化也要勾上。</p>
-<p><img src="https://pic3.zhimg.com/80/v2-87519277092bc0f2215a265582e2c6f2_hd.jpg" alt="img"></p>
-<p>然后项目就建成了，点击<code>Settings</code>，向下拉到最后有个<code>GitHub Pages</code>，点击<code>Choose a theme</code>选择一个主题。然后等一会儿，再回到<code>GitHub Pages</code>，会变成下面这样：</p>
-<p><img src="https://pic2.zhimg.com/80/v2-1066a8c7ad1cb2fb22bc291f3af4eefd_hd.jpg" alt="img"></p>
-<p>点击那个链接，就会出现自己的网页啦，效果如下：</p>
-<p><img src="https://pic1.zhimg.com/80/v2-6625e860227930b804fd3690d34abcc8_hd.jpg" alt="img"></p>
-<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>在合适的地方新建一个文件夹，用来存放自己的博客文件，比如我的博客文件都存放在<code>D:\study\program\blog</code>目录下。</p>
-<p>在该目录下右键点击<code>Git Bash Here</code>，打开git的控制台窗口，以后我们所有的操作都在git控制台进行，就不要用Windows自带的控制台了。</p>
-<p>定位到该目录下，输入<code>npm install hexo-cli -g</code>安装Hexo。会有几个报错，无视它就行。</p>
-<p>然后输入<code>npm install hexo --save</code>继续安装。</p>
-<p>安装完后输入<code>hexo -v</code>验证是否安装成功。</p>
-<p>然后就要初始化我们的网站，输入<code>hexo init</code>初始化文件夹，接着输入<code>npm install</code>安装必备的组件。</p>
-<p>这样本地的网站配置也弄好啦，输入<code>hexo g</code>生成静态网页，然后输入<code>hexo s</code>打开本地服务器，然后浏览器打开<a href="http://link.zhihu.com/?target=http%3A//localhost%3A4000/" target="_blank" rel="noopener">http://localhost:4000/</a>，就可以看到我们的博客啦，效果如下：</p>
-<p><img src="https://pic4.zhimg.com/80/v2-1b071f68e2db995b05470897e9730f27_hd.jpg" alt="img"></p>
-<p>按<code>ctrl+c</code>关闭本地服务器。</p>
-<h2 id="连接Github与本地"><a href="#连接Github与本地" class="headerlink" title="连接Github与本地"></a>连接Github与本地</h2><p>首先右键打开git bash，然后输入下面命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;godweiyang&quot;</span><br><span class="line">git config --global user.email &quot;792321264@qq.com&quot;</span><br></pre></td></tr></table></figure>
-<p>用户名和邮箱根据你注册github的信息自行修改。</p>
-<p>然后生成密钥SSH key：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;792321264@qq.com&quot;</span><br></pre></td></tr></table></figure>
-<p>输入<code>eval &quot;$(ssh-agent -s)&quot;</code>，添加密钥到ssh-agent。</p>
-<p>再输入<code>ssh-add ~/.ssh/id_rsa</code>，添加生成的SSH key到ssh-agent。</p>
-<p>打开<a href="http://link.zhihu.com/?target=http%3A//github.com/" target="_blank" rel="noopener">github</a>，在头像下面点击<code>settings</code>，再点击<code>SSH and GPG keys</code>，新建一个SSH，名字随便。</p>
-<p>打开<code>C:\Users\Administrator\.ssh\id_rsa.pub</code>，注意是隐藏文件夹，将其中的内容复制到新建的SSH中。</p>
-<p>输入<code>ssh -T git@github.com</code>，如果如下图所示，出现你的用户名，那就成功了。</p>
-<p><img src="https://pic1.zhimg.com/80/v2-d7afdafdcc00dbbed9b47d121e9241d0_hd.jpg" alt="img"></p>
-<p>打开博客根目录下的<code>_config.yml</code>文件，这是博客的配置文件，在这里你可以修改与博客相关的各种信息。</p>
-<p>修改最后一行的配置：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https://github.com/godweiyang/godweiyang.github.io</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-<p>repository修改为你自己的github项目地址。<strong>不过你这里看到的可能与我有点不一样，因为我已经修改过主题了，所以这一步先不用管，换完主题之后记得回来修改！</strong></p>
-<h2 id="写文章、发布文章"><a href="#写文章、发布文章" class="headerlink" title="写文章、发布文章"></a>写文章、发布文章</h2><p>首先在博客根目录下右键打开git，安装一个扩展<code>npm install hexo-deployer-git --save</code>。</p>
-<p>然后输入<code>hexo new post &quot;article title&quot;</code>，新建一篇文章。</p>
-<p>然后打开<code>D:\study\program\blog\source\_posts</code>的目录，可以发现下面多了一个文件夹和一个<code>.md</code>文件，一个用来存放你的图片等数据，另一个就是你的文章文件啦。</p>
-<p>编写完markdown文件后，根目录下输入<code>hexo g</code>生成静态网页，然后输入<code>hexo s</code>可以本地预览效果，最后输入<code>hexo d</code>上传到github上。这时打开你的github.io主页就能看到发布的文章啦。</p>
-<h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><p>现在默认的域名还是<code>xxx.github.io</code>，是不是很没有牌面？想不想也像我一样弄一个专属域名呢，首先你得购买一个域名，xx云都能买，看你个人喜好了。</p>
-<p>以我的百度云为例，如下图所示，添加两条解析记录：</p>
-<p><img src="https://pic3.zhimg.com/80/v2-80e8dbe1bdda044ba4a929968da279da_hd.jpg" alt="img"></p>
-<p>然后打开你的github博客项目，点击<code>settings</code>，拉到下面<code>Custom domain</code>处，填上你自己的域名，保存：</p>
-<p><img src="https://pic4.zhimg.com/80/v2-dea19c65560424590c7c3141315e4663_hd.jpg" alt="img"></p>
-<p>这时候你的项目根目录应该会出现一个名为<code>CNAME</code>的文件了。如果没有的话，打开你本地博客<code>/source</code>目录，我的是<code>D:\study\program\blog\source</code>，新建<code>CNAME</code>文件，注意没有后缀。然后在里面写上你的域名，保存。最后运行<code>hexo g</code>、<code>hexo d</code>上传到github。</p>
-<h2 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h2><p>网上大多数主题都是github排名第一的<code>Next</code>主题，但是我个人不是很喜欢，我更喜欢<code>beantech</code>主题，地址在<a href="http://link.zhihu.com/?target=https%3A//github.com/YenYuHsuan/hexo-theme-beantech" target="_blank" rel="noopener">传送门</a>。</p>
-<p>首先要注意的是，<strong>这个github项目不仅包含了主题文件，还包含了hexo的各种文件</strong>。</p>
-<p>所以首先下载下来这个项目，然后推荐将下图所有文件全部替换你原本博客根目录下的文件：</p>
-<p><img src="https://pic2.zhimg.com/80/v2-1af373804bc05ca6ed95e14819d6544d_hd.jpg" alt="img"></p>
-<p>然后运行<code>hexo clean</code>清空所有生成的网页缓存，<code>hexo g</code>、<code>hexo d</code>。这时候新的主题网页就生成好了，博客根目录的情况应该大致如下：</p>
-<p><img src="https://pic4.zhimg.com/80/v2-8c3023199e082e806388674eb9a95c0b_hd.jpg" alt="img"></p>
-<h2 id="博客目录构成介绍"><a href="#博客目录构成介绍" class="headerlink" title="博客目录构成介绍"></a>博客目录构成介绍</h2><p>从上图可以看出，博客的目录结构如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">- node_modules</span><br><span class="line">- public</span><br><span class="line">- scaffolds</span><br><span class="line">- source</span><br><span class="line">    - _posts</span><br><span class="line">    - about</span><br><span class="line">    - archive</span><br><span class="line">    - img</span><br><span class="line">    - tags</span><br><span class="line">- themes</span><br></pre></td></tr></table></figure>
-<p><code>node_modules</code>是node.js各种库的目录，<code>public</code>是生成的网页文件目录，<code>scaffolds</code>里面就三个文件，存储着新文章和新页面的初始设置，<code>source</code>是我们最常用到的一个目录，里面存放着文章、各类页面、图像等文件，<code>themes</code>存放着主题文件，一般也用不到。</p>
-<p>我们平时写文章只需要关注<code>source/_posts</code>这个文件夹就行了。</p>
-<h2 id="个性化设置及bug处理"><a href="#个性化设置及bug处理" class="headerlink" title="个性化设置及bug处理"></a>个性化设置及bug处理</h2><p><strong>首先打开_config.yml，根据自己需求配置，具体不说了，有注释。</strong></p>
-<h2 id="修复文档分类bug"><a href="#修复文档分类bug" class="headerlink" title="修复文档分类bug"></a>修复文档分类bug</h2><p>这个主题文档分类功能有个bug，一直没有得到解决，直到最近，我才发现是源文件的单词拼错了。。。</p>
-<p>打开<code>D:\study\program\blog\scaffolds\post.md</code>，单词<code>catagories</code>改为<code>categories</code>。</p>
-<h2 id="添加畅言评论插件"><a href="#添加畅言评论插件" class="headerlink" title="添加畅言评论插件"></a>添加畅言评论插件</h2><p>主题自带了多说评论插件，但是多说已经关闭了，所以我换成了畅言评论插件。</p>
-<p>首先你得注册一个畅言账号，<a href="http://link.zhihu.com/?target=http%3A//changyan.kuaizhan.com/" target="_blank" rel="noopener">地址</a>。<br>然后打开如下页面，复制该段代码：</p>
-<p><img src="https://pic1.zhimg.com/80/v2-609913eebe359a8d2f21bfa64d3d0714_hd.jpg" alt="img"></p>
-<p>打开<code>D:\study\program\blog\themes\beantech\layout\post.ejs</code>，将代码粘贴到如下位置：</p>
-<p><img src="https://pic3.zhimg.com/80/v2-42186595bc279b1f845f647af8e41246_hd.jpg" alt="img"></p>
-
+          去年9月的时候开始搭建了第一个自己的独立博客，到现在也稍微像模像样了。很多小伙伴应该也想过搭建一个自己的博客，网上也有一堆详细教程。我在此稍稍总结一下具体的搭建步骤，另外网上很少有修改博客源码的个性化教程，我就稍稍分享一下我的一些修改经验，更多的个性化操作需要你自己以后去摸索。
+具体效果可以参观我的
+          ...
+          <!--noindex-->
           
+            <div class="post-button text-center">
+              <a class="btn" href="/2018/11/28/Hexo+Github博客搭建图文教程/#more" rel="contents">
+                Weiterlesen &raquo;
+              </a>
+            </div>
+          
+          <!--/noindex-->
         
       
     </div>
@@ -1040,6 +803,8 @@
       <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/avatar.gif" alt="雪天使">
             
               <p class="site-author-name" itemprop="name">雪天使</p>
               <p class="site-description motion-element" itemprop="description">What I want to record</p>
